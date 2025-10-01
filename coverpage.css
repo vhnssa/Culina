@@ -1,0 +1,48 @@
+<?php
+include "koneksi.php";
+ob_start();
+session_start();
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Culina</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100..900&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@100..900&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="main-box" style="width: 1280px; height: 550px; position: relative; background: #FCF5C7; overflow: hidden">
+    
+    <div class="shape-1" style="width: 135.02px; height: 500px; left: 70px; top: 280px; position: absolute; transform: rotate(45deg); transform-origin: top left; opacity: 0.50; background: #FF8C00; border-radius: 338.15px"></div>
+    <div class="shape-2" style="width: 135.02px; height: 623.43px; left: 350px; top: 400px; position: absolute; transform: rotate(45deg); transform-origin: top left; opacity: 0.50; background: #FF8C00; border-radius: 338.15px"></div>
+    <div class="shape-3" style="width: 75px; height: 600px; left: 180px; top: 400px; position: absolute; transform: rotate(45deg); transform-origin: top left; opacity: 0.70; background: #FF8C00; border-radius: 338.15px"></div>
+    
+    <div class="title" style="width: 720px; left: 102px; top: 189px; position: absolute; color: black; font-size: 75px; font-family: Poppins; font-weight: 600; word-wrap: break-word">Culina</div>
+    <div class="subtitle" style="left: 105px; top: 280px; position: absolute; color: black; font-size: 25px; font-family: Sofia Sans; font-weight: 400; word-wrap: break-word">Personalized cooking, tailored to your taste.</div>
+    
+    <div class="bg-bar" style="width: 800.52px; height: 1000px; left: 1400px; top: -100px; position: absolute; transform: rotate(47deg); transform-origin: top left; background: #FF8C00"></div>
+    <img class="bg-img" style="width: 1468.27px; height: 978.60px; left: 557.77px; top: 686px; position: absolute; transform: rotate(-43deg); transform-origin: top left" src="images/top-view-table-full-food.png" />
+
+    <div class="nav-home" style="left: 697px; top: 24px; position: absolute; color: black; font-size: 20px; font-family: Poppins; font-weight: 300; word-wrap: break-word">Home</div>
+    <div class="nav-signup" style="left: 819px; top: 24px; position: absolute; color: black; font-size: 20px; font-family: Poppins; font-weight: 300; word-wrap: break-word">Sign Up</div>
+    <div class="nav-login" style="left: 959px; top: 24px; position: absolute; color: black; font-size: 20px; font-family: Poppins; font-weight: 300; word-wrap: break-word">Log In</div>
+    <div class="nav-contact" style="left: 1078px; top: 24px; position: absolute; color: black; font-size: 20px; font-family: Poppins; font-weight: 300; word-wrap: break-word">Contact Us</div>
+
+    <div class="nav-underline" style="width: 77px; height: 0px; left: 688px; top: 60px; position: absolute; outline: 3px #FF8C00 solid; outline-offset: -1.50px"></div>
+
+    <div class="shape-4" style="width: 112.87px; height: 464.37px; left: 578.78px; top: -286px; position: absolute; transform: rotate(46deg); transform-origin: top left; background: #FF8C00; border-radius: 338.15px"></div>
+    <div class="shape-5" style="width: 112.87px; height: 464.37px; left: 676.09px; top: -168.88px; position: absolute; transform: rotate(45deg); transform-origin: top left; background: #FF8C00; border-radius: 338.15px"></div>
+
+  </div>
+</body>
+
+<?php
+mysqli_close($conn);
+ob_end_flush();
+?> 
+</html>

@@ -1,0 +1,184 @@
+.cover,
+.cover * {
+  box-sizing: border-box;
+}
+.cover {
+  background: #fcf5c7;
+  height: 720px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-168 {
+  background: #ff8c00;
+  border-radius: 338.15px;
+  opacity: 0.5;
+  width: 135.02px;
+  height: 623.43px;
+  position: absolute;
+  left: 119.29px;
+  top: 360px;
+  transform-origin: 0 0;
+  transform: rotate(44.93deg) scale(1, 1);
+}
+.rectangle-170 {
+  background: #ff8c00;
+  border-radius: 338.15px;
+  opacity: 0.5;
+  width: 135.02px;
+  height: 623.43px;
+  position: absolute;
+  left: 404.29px;
+  top: 514px;
+  transform-origin: 0 0;
+  transform: rotate(44.93deg) scale(1, 1);
+}
+.rectangle-169 {
+  border-radius: 0px;
+  opacity: 0.7;
+  width: 81.81px;
+  height: 623.43px;
+  position: absolute;
+  left: 159.81px;
+  top: 549.98px;
+  transform: translate(-159.81px, 16.94px);
+  overflow: visible;
+}
+.group-2 {
+  position: absolute;
+  inset: 0;
+}
+.culina {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 96px;
+  font-weight: 600;
+  position: absolute;
+  left: 102px;
+  top: 189px;
+  width: 720px;
+}
+.group-3 {
+  position: absolute;
+  inset: 0;
+}
+.personalized-cooking-tailored-to-your-taste {
+  color: #000000;
+  text-align: left;
+  font-family: "SofiaSans-Regular", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  position: absolute;
+  left: 105px;
+  top: 317px;
+}
+.rectangle-166 {
+  background: #ff8c00;
+  width: 800.52px;
+  height: 1672.68px;
+  position: absolute;
+  left: 1660.36px;
+  top: -260px;
+  transform-origin: 0 0;
+  transform: rotate(47.355deg) scale(1, 1);
+}
+.top-view-table-full-food-1 {
+  width: 1468.27px;
+  height: 978.6px;
+  position: absolute;
+  left: 557.77px;
+  top: 755.82px;
+  transform-origin: 0 0;
+  transform: rotate(-42.611deg) scale(1, 1);
+  object-fit: cover;
+  aspect-ratio: 1468.27/978.6;
+}
+.group-4 {
+  position: absolute;
+  inset: 0;
+}
+.home {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Light", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  position: absolute;
+  left: 746px;
+  top: 20px;
+}
+.group-5 {
+  position: absolute;
+  inset: 0;
+}
+.sign-up {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Light", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  position: absolute;
+  left: 868px;
+  top: 20px;
+}
+.group-6 {
+  position: absolute;
+  inset: 0;
+}
+.log-in {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Light", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  position: absolute;
+  left: 1008px;
+  top: 20px;
+}
+.group-7 {
+  position: absolute;
+  inset: 0;
+}
+.contact-us {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Light", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  position: absolute;
+  left: 1127px;
+  top: 20px;
+}
+.line-1 {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #ff8c00;
+  border-width: 3px 0 0 0;
+  width: 77px;
+  height: 0px;
+  position: absolute;
+  left: 743px;
+  top: 56px;
+}
+.rectangle-171 {
+  background: #ff8c00;
+  border-radius: 338.15px;
+  width: 112.87px;
+  height: 464.37px;
+  position: absolute;
+  left: 644.78px;
+  top: -297px;
+  transform-origin: 0 0;
+  transform: rotate(46.132deg) scale(1, 1);
+}
+.rectangle-172 {
+  background: #ff8c00;
+  border-radius: 338.15px;
+  width: 112.87px;
+  height: 464.37px;
+  position: absolute;
+  left: 742.09px;
+  top: -179.88px;
+  transform-origin: 0 0;
+  transform: rotate(44.935deg) scale(1, 1);
+}
